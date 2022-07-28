@@ -9,10 +9,17 @@ body {
     color: #F9FAF8;
 }
 
+.header,
+.section-2,
+.section-3,
+.section-4,
+.footer {
+    padding: 16px 5em;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px 3em;
 }
 
 .header-logo {
@@ -43,13 +50,15 @@ body {
 .section-1 {
     display: flex;
     background-color: #1F2937;
-    padding: 16px 3em;
+    padding: 3em 5em;
+
 }
 
 .hero-left {
     width: 50%;
     display: flex;
     flex-direction: column;
+    padding-right: 16px;
 }
 
 .hero-main-text {
@@ -58,13 +67,30 @@ body {
     color: #F9FAF8;
 }
 
+.hero-sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 16px 0;
+}
+
 .hero-main-img {
     color: white;
     background-color: gray;
     align-self: center;
     width: 200px;
-    padding: 100px;
-    
+    padding: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-weight: 800;
 }
 
 .section-2 {
