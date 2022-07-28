@@ -22,15 +22,59 @@ body {
 
 .header-links {
     display: flex;
+    align-items: center;
     gap: 16px;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-
+.header-links a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
 
 .content {
-    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section-1 {
+    display: flex;
+    background-color: #1F2937;
+    padding: 16px 3em;
+}
+
+.hero-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
     color: #F9FAF8;
+}
+
+.hero-main-img {
+    color: white;
+    background-color: gray;
+    align-self: center;
+    width: 200px;
+    padding: 100px;
+    
+}
+
+.section-2 {
+    background-color: white;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+.section-4 {
+    background-color: white;
 }
