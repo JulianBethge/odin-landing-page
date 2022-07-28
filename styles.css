@@ -5,10 +5,12 @@ body {
 .header,
 .footer {
     background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 
 
 .content {
     background-color: aliceblue;
+    color: #F9FAF8;
 }
