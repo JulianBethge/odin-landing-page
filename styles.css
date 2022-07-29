@@ -97,6 +97,28 @@ body {
     background-color: white;
 }
 
+.photo-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+figure {
+    /* border: 3px solid #3882F6; */
+
+}
+
+.photo {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+figcaption {
+    text-align: center;
+}
+
 .section-3 {
     background-color: #E5E7EB;
 }
