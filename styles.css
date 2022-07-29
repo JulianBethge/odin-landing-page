@@ -1,6 +1,10 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: auto;
 }
 
 .header,
@@ -10,11 +14,12 @@ body {
 }
 
 .header,
+.section-1
 .section-2,
 .section-3,
 .section-4,
 .footer {
-    padding: 16px 5em;
+    padding: 16px 6em;
 }
 
 .header {
@@ -50,7 +55,7 @@ body {
 .section-1 {
     display: flex;
     background-color: #1F2937;
-    padding: 3em 5em;
+    padding: 3em 6em;
 
 }
 
@@ -84,7 +89,7 @@ body {
 
 .sign-up {
     background-color: #3882F6;
-    border: 0;
+    border: 1px solid white;
     border-radius: 5px;
     width: 100px;
     height: 30px;
@@ -96,15 +101,23 @@ body {
     background-color: white;
 }
 
+.information {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding-top: 1em;
+}
+
 .photo-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 24px;
     flex-wrap: wrap;
+    margin: 1em;
 }
 
 figure {
-    /* border: 3px solid #3882F6; */
-    margin: 0;
     padding: 0;
 
 }
@@ -112,7 +125,6 @@ figure {
 .photo {
     border: 3px solid #3882F6;
     border-radius: 10px;
-    height: 150px;
 }
 
 figcaption {
@@ -121,15 +133,46 @@ figcaption {
 
 .photo,
 figcaption {
-    width: 150px;
-    margin: 24px;
+    width: 150px; 
     padding: 0;
 }
 
 .section-3 {
     background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px; 
+    margin: 16px 1em;
+}
+
+.author {
+    font-size: 20px; 
+    font-weight: bold;  
+    text-align: right;
+    margin: 16px 3em;
 }
 
 .section-4 {
     background-color: white;
+}
+
+.call2action {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding: 3em;
+    margin: 16px 5em;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
 }
