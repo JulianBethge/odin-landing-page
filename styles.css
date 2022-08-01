@@ -4,7 +4,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
     overflow: auto;
 }
 
@@ -14,16 +13,8 @@ body {
     color: #F9FAF8;
 }
 
-.header,
-.section-1
-.section-2,
-.section-3,
-.section-4,
-.footer {
-    padding: 1vh 5vw;
-}
-
 .header {
+    padding: 3vh 3vw 3vh 3vw;
     display: flex;
     justify-content: space-between;
 }
@@ -47,23 +38,16 @@ body {
     color: #F9FAF8;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    
-}
-
 .section-1 {
+    padding: 4vh 3vw 5vh 3vw;
     display: flex;
     background-color: #1F2937;
-    padding: 3em 6em;
 }
 
 .hero-left {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding-right: 16px;
 }
 
 .hero-main-text {
@@ -82,8 +66,9 @@ body {
     color: white;
     background-color: gray;
     align-self: center;
-    width: 400px;
-    margin-left: auto;
+    width: 650px;
+    border-radius: 10px;
+    margin-left: 1em;
     margin-right: auto;
 }
 
@@ -99,6 +84,7 @@ body {
 
 .section-2 {
     background-color: white;
+    padding: 3vh 2vw 3vh 2vw;
 }
 
 .information {
@@ -106,7 +92,6 @@ body {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
-    padding-top: 1em;
 }
 
 .photo-container {
@@ -114,11 +99,11 @@ body {
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
-    margin: 1em;
 }
 
 figure {
     padding: 0;
+    margin: 12px 40px;
 
 }
 
@@ -129,35 +114,39 @@ figure {
 
 figcaption {
     text-align: center;
+    margin-left: 3px;
 }
 
 .photo,
 figcaption {
     width: 150px; 
     padding: 0;
+    
 }
 
 .section-3 {
     background-color: #E5E7EB;
     color: #1F2937;
+    padding: 4vh 4vw 4vh 4vw;
 }
 
 .quote {
     font-weight: lighter;
     font-style: italic;
     font-size: 36px; 
-    margin: 16px 1em;
+    margin: 16px 3vw;
 }
 
 .author {
     font-size: 20px; 
     font-weight: bold;  
     text-align: right;
-    margin: 16px 3em;
+    margin: 0;
 }
 
 .section-4 {
     background-color: white;
+    padding: 2vh 2vw 2vh 2vw;
 }
 
 .call2action {
@@ -165,12 +154,18 @@ figcaption {
     background-color: #3882F6;
     color: white;
     border-radius: 10px;
+    max-width: 800px;
     padding: 3em;
-    margin: 16px 5em;
+    margin: 0 auto;
     justify-content: space-between;
 }
 
+.call2action .sign-up {
+    margin: auto;
+}
+
 .footer {
+    padding: 2vh 2vw 2vh 2vw;
     display: flex;
     align-items: center;
     justify-content: center;
